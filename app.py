@@ -41,7 +41,7 @@ def extract_nomor_seri_from_pdf(file):
 
 # Menu Upload & Generate
 if menu == "📄 Upload & Generate":
-    st.title("📄 Upload PDF & Tambahkan Nomor Seri Otomatis")
+    st.title("📄 Upload PDF & Untuk Tambahkan Nomor Seri Otomatis")
 
     # Input nama pengunggah
     nama = st.text_input("Nama Pengunggah")
@@ -73,7 +73,7 @@ if menu == "📄 Upload & Generate":
 
 # Menu Cek Validasi
 elif menu == "🔍 Cek Validasi":
-    st.title("🔍 Validasi PDF Berdasarkan Nomor Seri")
+    st.title("🔍 Validasi PDF yang sudah ada Nomor Seri")
 
     cek_pdf = st.file_uploader("Upload PDF untuk Dicek", type=["pdf"], key="cek")
     if cek_pdf:
