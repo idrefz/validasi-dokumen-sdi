@@ -3,6 +3,7 @@ import fitz  # PyMuPDF
 import os
 import random
 import datetime
+import re
 import pandas as pd
 
 # Set up halaman
